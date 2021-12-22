@@ -1,0 +1,76 @@
+/* {margin: 0; padding: 0;} */
+html{
+    background: url('https://images.pexels.com/photos/2341830/pexels-photo-2341830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ 
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+header{
+    /* top:0; */
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.links h2{
+    font-size: 22px;
+    color: #29CDCD;
+    text-align: center;
+    width: 100px;
+    float:right;
+}
+.me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    
+
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    color: #F2F4F4;
+}
+a:link{
+    color: #29CDCD;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:visited{
+    color: #29CDCD;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: #00FFFF;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active{
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.footing{
+
+    display: flex;
+    justify-content: center;
+    height: 10px;
+   
+}
+.icons{
+    padding: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    
+}

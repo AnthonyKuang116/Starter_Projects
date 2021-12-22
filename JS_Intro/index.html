@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>JS Intro</title>
+        <style>
+            h1{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            //Uses Strings
+            var name = "Anthony";
+
+            //methods
+            name.toUppercase();//calling the toUppercase method
+
+            //Uses numbers. Floats and Ints are the same here
+            var age = 24;
+
+            //Uses booleans
+            var student = true;
+
+            //Uses arrays
+            var students = ['Anthony', 'Travis', 'Koby', 'Justin'];
+
+            //Uses objects... Uses a collection of data (key value pairs) and storing it in an entity
+            var muhammad = {
+                name: Anthony, //key of 'name' and value of 'Anthony'
+                profession: student,//key = profession...value = student
+                age: 24,
+                hobbies: ['tennis', 'coding', 'games'],
+
+                address:{//This is an object inside an object
+                    city: blacksburg,
+                    state: virginia
+                }
+            }
+
+            //Null and undefined
+            var thing;//this is undefined since it doesn't equal anything
+            var nothing = null;//none?
+            
+            //Fucntion...Uses to transform/run a procedure
+            function addTwoNumbers(num1, num2){//this has arguments/parameters...things the function accepts
+                return num1 + num2;//functions return
+            }
+            //Use this function by... 
+            addTwoNumbers(4, 5)//returns 9...invokes function
+        </script>
+    </body>
+</html>

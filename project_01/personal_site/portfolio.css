@@ -1,0 +1,152 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+html {
+  background: url("https://images.pexels.com/photos/2341830/pexels-photo-2341830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header {
+  top: 0;
+  overflow: auto;
+}
+.center {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 0;
+  color: white;
+  font-size: 18px;
+}
+.center::before {
+  content: "";
+  position: absolute;
+  width: 75%;
+  height: 1180px;
+  top: 130;
+  left: 260;
+  z-index: -1;
+  opacity: 0.6;
+  background-color: gray;
+}
+article {
+  margin-left: 19px;
+  margin-right: 10px;
+}
+.links h1 {
+  font-size: 22px;
+  font-family: Brush;
+  color: White;
+  text-align: center;
+  width: 200px;
+
+  float: left;
+}
+.links h2 {
+  font-size: 22px;
+  color: #29cdcd;
+  text-align: center;
+  width: 100px;
+
+  float: right;
+}
+.footing h4 {
+  font-size: 15px;
+  color: #29cdcd;
+
+  text-align: center;
+  float: right;
+  width: 350px;
+  margin-top: 190px;
+  position: relative;
+  bottom: 0;
+}
+a:link {
+  color: #29cdcd;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:visited {
+  color: #29cdcd;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #00ffff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+h2 {
+  text-align: center;
+}
+.project1 {
+  height: 300px;
+  width: 100%;
+
+  padding-left: 15px;
+}
+.project1 img {
+  height: 200px;
+  width: 200px;
+  float: right;
+  padding-right: 15px;
+}
+.project2 {
+  height: 300px;
+  width: 100%;
+
+  padding-left: 15px;
+}
+.project2 img {
+  height: 200px;
+  width: 200px;
+  float: left;
+  padding-right: 15px;
+}
+.project3 {
+  height: 300px;
+  width: 100%;
+
+  padding-left: 15px;
+}
+.project3 img {
+  height: 200px;
+  width: 200px;
+  float: right;
+  padding-right: 15px;
+}
+h5 {
+  font-size: 20px;
+}
+.footing h4 {
+  font-size: 15px;
+  color: #29cdcd;
+
+  text-align: center;
+  float: right;
+  width: 350px;
+  margin-top: 0px;
+  position: relative;
+  bottom: 0;
+}
+.footing {
+  margin: 0 auto;
+  bottom: 0;
+  text-align: center;
+  height: 10px;
+}
+.icons {
+  padding: 10px;
+}
+footer {
+  bottom: 0;
+}

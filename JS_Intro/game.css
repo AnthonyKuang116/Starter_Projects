@@ -1,0 +1,27 @@
+#board {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .cell {
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+  }
+  
+  .black {
+    color: black;
+  }
+  
+  .white {
+    color: white;
+  }

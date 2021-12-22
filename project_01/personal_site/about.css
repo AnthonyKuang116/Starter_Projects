@@ -1,0 +1,114 @@
+/* {margin: 0; padding: 0;} */
+html{
+    background: url('https://images.pexels.com/photos/2341830/pexels-photo-2341830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header{
+    top: 0;
+    overflow: auto;
+}
+section{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 0;
+    color: white;
+    font-size: 18px;
+}
+section::before{
+    content: '';
+    position: absolute;
+    width: 75%;
+    height: 70%;
+    top: 130;
+    left: 260;
+    z-index: -1;
+    opacity: .6;
+    background-color: gray;
+}
+article{
+    margin-left: 19px;
+    margin-right: 10px;
+}
+.links h2{
+    font-size: 22px;
+    color: #29CDCD;
+    text-align: center;
+    width: 100px;
+    float:right;
+}
+.links h1{
+    font-size: 22px;
+    font-family: Brush;
+    color: White;
+    text-align: center;
+    width: 200px;
+    float:left;
+}
+.vt_logo img{
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 75px;
+    width: 140px;
+}
+.tennis img{
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 120px;
+    width: 120px;
+}
+.skiing img{
+    float:right;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 120px;
+    width: 170px;
+}
+.stocks img{
+    float:left;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 150px;
+    width: 250px;
+}
+a:link{
+    color: #29CDCD;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:visited{
+    color: #29CDCD;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: #00FFFF;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active{
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.footing{
+    margin: 0 auto;
+    bottom: 0;
+    text-align: center;
+    height: 10px;
+    text-decoration: none;
+}
+.icons{
+    padding: 10px;
+    text-decoration: none;
+}
+footer{
+    margin-top: 50px;
+    bottom: 0;
+    text-decoration: none;
+}

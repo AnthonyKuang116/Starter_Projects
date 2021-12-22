@@ -1,0 +1,118 @@
+/* main-nav and children below */
+.main-nav{
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+    align-items: center;
+}
+.full-width{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.short-width{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.nav-list a{
+    padding: 10px;
+    border-right: 2px solid gray;
+    color: white;
+    text-decoration: none;
+}
+.nav-list li{
+    list-style-type: none;
+}
+.nav-list li:last-of-type a{
+    border-right: none;
+}
+.main-nav a:hover{
+    background-color: darkblue;
+} 
+
+
+/* Sub-nav and children below */
+.sub-nav{
+    display: flex;
+    background-color: lightgray;
+    padding-top: 10px;
+}
+.company-name{
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 35px;
+    padding-right: 50px;
+}
+.search-form{
+    display: flex;
+    flex-grow: 1;
+}
+.search-form input{
+    border: none;
+    border-bottom: 1px solid blue;
+    flex-grow: 1;
+}
+.sub-nav button{
+    border: none;
+    background-color: blue;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+} 
+.sub-nav button:hover{
+    background-color: darkblue;
+}
+.credit-offer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.credit-offer:hover{
+    background: linear-gradient(90deg, rgba(186,30,25,1) 8%, rgba(255,0,0,1) 46%, rgba(186,30,25,1) 82%);
+}
+.search-term{
+    padding-left: 10px;
+}
+
+/* media queries */
+@media (min-width: 768px){
+    .full-width{
+        display: flex;
+    }
+    .short-width{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    .full-width{
+        display: none;
+    }
+    .short-width{
+        display: flex;
+    }
+    .company-name{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
